@@ -52,7 +52,7 @@ TIME = int(os.environ.get("TIME", "60"))
 
 
 # add premium logs channel id
-PAYMENT_LOGS = int(environ.get('PAYMENT_LOGS', '-1002172758674)
+PAYMENT_LOGS = int(environ.get('PAYMENT_LOGS', '-1002172758674')
 
 #Shortner (token system) 
 """
