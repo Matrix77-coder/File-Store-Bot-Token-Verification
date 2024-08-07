@@ -52,7 +52,7 @@ TIME = int(os.environ.get("TIME", "60"))
 
 
 # add premium logs channel id
-PAYMENT_LOGS = int(environ.get('PAYMENT_LOGS', '-1002172758674')
+PAYMENT_LOGS = int(environ.get('PAYMENT_LOGS', '')
 
 #Shortner (token system) 
 """
@@ -67,7 +67,7 @@ USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else F
 SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "https://linkshortify.com/member/tools/api")
 # SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "ae136f9e1717e45e5d4dc5dfbf3c10308b243482")
 #use this key if not working ☠️ (jokin!!)
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "ae136f9e1717e45e5d4dc5dfbf3c10308b243482")
 #add your custom time in secs for shortlink expiration.
 # 24hr = 86400
 # 12hr = 43200
